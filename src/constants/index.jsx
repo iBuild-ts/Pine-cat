@@ -1,10 +1,13 @@
+import { FaTelegram, FaTwitter, FaDiscord } from 'react-icons/fa';
+
+
 export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "step-by-step guide to purchasing PineCat ($PCAT)",
+    title: "Step 1: Set Up a Solana-Compatible Wallet ",
+    text: "Phantom Solflare Step 2: Fund Your Wallet with $SOL Purchase $SOL on an exchange (e.g., Binance, Coinbase, Kraken). Transfer your $SOL from the exchange to your Solana wallet by copying your wallet address and pasting it into the withdrawal address field on the exchange",
     button: {
       icon: "/images/magictouch.svg",
       title: "Watch the demo",
@@ -13,12 +16,12 @@ export const features = [
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Step 3: Purchase PineCat Tokens ($PCAT)",
+    title: "Confirm the transaction through your wallet.",
+    text: "Step 5: Monitor and Adjust Your Investment You can increase your $PCAT investment if you want more before the presale ends: Return to the presale page on FairFun, increase the amount of $SOL, and confirm the new transaction in your wallet..",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Supported by Fairfun Team!",
     },
   },
 ];
@@ -27,85 +30,85 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Step 6: Wait for Listing",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "PineCat will automatically list on Raydium",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "liquidity added and locked.",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "You’ll be able to trade or hold $PCAT directly on Raydium",
   },
 ];
 
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "What is $PCAT?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "$PCAT is the first token to embrace the power of pineapple-crowned cats on the blockchain! Born from the legend of PineCat—a mythical, streetwise feline rocking a pineapple crown—$PCAT exists solely to bring fun, absurdity, and a slice of tropical flair to the crypto world. With 10 billion tokens and absolutely zero serious mission, $PCAT is here to remind us that sometimes the best investments are the ones that don’t take themselves too seriously.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Why a Pineapple Crown?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Why not? In the world of memecoins, where logic is often a distant memory, PineCat decided that if it was going to rule the crypto jungle, it had to do it with style. And nothing says “I mean business” quite like a pineapple crown. It’s all about making a statement—and that statement is pure, chaotic fun.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "How does the presale work?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Easy peasy! Here’s the lowdown on our presale Softcap We have a 100 $SOL softcap, which is like a “go/no-go” line. If we reach this, we’re all systems go! LP Burn Once the softcap is reached, liquidity will be automatically added to Raydium, and the LP tokens will be permanently burned for extra security. Translation? This pineapple-loving cat isn’t going anywhere! Refunds: If we don’t reach the softcap, every single $SOL gets refunded to investors, no questions asked. So, join in, watch the countdown, and get ready to ride the meme wave!",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "Is $PCAT safe?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "As safe as a cat with a pineapple hat! But on a serious note, we’ve implemented security measures such as a locked liquidity pool, automatic LP burn, and a refund mechanism for the presale. While no investment is ever 100% risk-free, PineCat is designed to be as safe as meme coins come. Plus, our team is fully committed to keeping this pineapple-cat ship afloat",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Roadmap: PineCat’s Meme Dream",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Phase 1: The Great Pineapple Heist Token Creation, Presale Launch, Community Growth Phase 2: The $PCAT Takeover Listings on Raydium and other exchanges, Early NFT drops Phase 3: Meme Domination Launch PineCat NFTs, Potential DAO, Meme Battles with other communities Phase 4: World Domination? Merchandise, more partnerships, and maybe even a “PineCat’s Dream Island” event.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: " The choices behind PineCat?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "PineCat's structure and tokenomics are rooted in the classic hallmarks of meme culture: unpredictability, humor, and the community-driven spirit. ",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Tokenomics",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "10 Billion Total Supply 80% Presale, 20% LP Automatic Liquidity Pool Burn: Burned for long-term value Softcap of 100 $SOL",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "Symbol",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "$PCAT",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: " Who Are We?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We are the PineCat Cabal: a rogue assembly of internet outcasts, meme fanatics, and crypto degenerates. We believe in the supreme power of PineCat, who alone holds the wisdom of the meme-verse. Some people call us unhinged. We prefer “meme prophets.” We’re here for the thrill, the absurdity, and the endless cycle of pineapple-based enlightenment.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "Community First Approach",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Every decision, from tokenomics to the refund policy, reflects a meme-centric focus on inclusivity and engagement. By ensuring that everyone can participate and offering refunds if the softcap isn’t met, PineCat reinforces meme culture’s community-first spirit. PineCat’s purpose isn’t just to be profitable but to create a space where people can share, laugh, and meme together",
   },
 ];
 
@@ -160,51 +163,55 @@ export const plans = [
 export const testimonials = [
   {
     id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
+    name: "Stage 1: The Birth of PineCat",
+    role: "The Prophecy has Begun",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "Unleash $PCAT Presale: 80% for the early degens, 20% for the Liquidity Pool. Summon the First Meme Army: Recruit meme warriors to spread the gospel of PineCat across Fairfun and beyond. Ritual LP Burn Ceremony: Lock it, load it, and yeet it into oblivion! Because the only thing we burn here is liquidity (and sanity).",
   },
-  {
-    id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
-    comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
-  },
+
   {
     id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
+    name: "Stage 3: Meme Conquest Begins ⚔️",
+    role: "It’s Meme War Time.",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "PineCat Airdrop for Meme Lords: Reward our most unhinged followers with exclusive $PCAT drops. PineCat Army Raid Nights: Weekly events where our community raids crypto forums, Reddit, and Telegram groups, chanting “All Hail the Pineapple Crown!” First Global PineCat Meetup: Virtual gathering of degens worldwide for meme battles and pineapple feasts.",
   },
-  {
-    id: "3",
-    name: "Alicia Barker",
-    role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
-    comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
-  },
+
   {
     id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
+    name: "Stage 5: The Great PineCat Memeconomy",
+    role: "The PineCat Empire builds its treasury.",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "Staking & Yield Farms for $PCAT: Stake your PineCat and earn yield to fuel even more degen plays. PineCat Meme Fund: A DAO treasury where cult members vote on the next insane meme project to fund. Who cares if it’s useful—it’s gotta be legendary. Exclusive Pineapple Crown NFT Drop: Holders of the Crown NFT get access to top-secret meme rituals and voting rights.",
+  },
+
+  {
+    id: "1",
+    name: "Stage 2: Crown of Pineapple Ascension",
+    role: "Bow down, peasants.",
+    avatarUrl: "/images/testimonials/mark-erixon.png",
+    comment:
+      "$PCAT Listing on Raydium: The pineapple is taking root in the blockchain. First Cult Meme-Off: PineCat followers gather to create the most absurd, viral-worthy PineCat content—winner gets the Golden Pineapple Emoji 🏆🍍. PineCat Marketplace Initiated: Merch, NFTs, and limited-edition PineCat pineapple stickers incoming.",
+  },
+
+  {
+    id: "3",
+    name: "Stage 4: Enter the PineCat Multiverse ",
+    role: "One meme cult is never enough.",
+    avatarUrl: "/images/testimonials/alicia-barker.png",
+    comment:
+      "$PCAT Multiverse NFTs: 500 limited PineCat NFTs, each representing a parallel dimension PineCat (Pirate PineCat, Wizard PineCat, Samurai PineCat—you get it). Collaborations with Other Meme Projects: Yes, we’ll collab with the weirdest of the weird. Dogecoin? Maybe. Hamster Coin? Bring it on. Official PineCat Merch Store: Pineapple crowns, meme shirts, and PineCat mugs to help you bring the Cult IRL.",
   },
   {
     id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
+    name: "Stage 6: Meme Domination",
+    role: "PineCat goes global",
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "PineCat Billboard Takeover: We’ll plaster PineCat on billboards in major cities (and maybe even one floating in the metaverse). PineCat Charity Fund: 1% of all $PCAT transactions to fund meme-based social initiatives. Because PineCat cares (sort of). Moon Landing Party: When $PCAT hits meme-iconic status, we’ll throw the ultimate moon party on a virtual Pineapple Island. Think meme DJs, pineapple pizza, and a live stream from PineCat himself.",
   },
 ];
 
@@ -212,35 +219,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/images/logos/afterpay.svg",
+    url: "/images/logos/Fairfun.png",
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/images/logos/amplitude.svg",
+    url: "/images/logos/Dexscreener.png",
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/images/logos/sonos.svg",
+    url: "/images/logos/Fairrfun-copy.png",
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/images/logos/maze.svg",
+    url: "/images/logos/Dexscreeener-copy.png",
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/images/logos/drips.svg",
+    url: "/images/logos/Fairifun-copy.png",
     width: 77,
     height: 48,
   },
@@ -377,26 +384,20 @@ export const Web = () => {
 export const links = [
   {
     id: "0",
-    title: "Ios",
-    icon: <Ios />,
-    url: "#",
+    title: "Telegram",
+    icon: <FaTelegram />,
+    url: "t.me/Pinecat_Sol",
   },
   {
     id: "1",
-    title: "Android",
-    icon: <Android />,
-    url: "#",
+    title: "Twitter",
+    icon: <FaTwitter />,
+    url: "https://x.com/pinecatOfficial",
   },
   {
     id: "2",
-    title: "Windows",
-    icon: <Windows />,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Web",
-    icon: <Web />,
+    title: "Discord",
+    icon: <FaDiscord />,
     url: "#",
   },
 ];
@@ -406,20 +407,10 @@ export const socials = [
     id: "0",
     title: "x",
     icon: "/images/socials/x.svg",
-    url: "#",
+    url: "https://x.com/pinecatOfficial",
   },
-  {
-    id: "1",
-    title: "Threads",
-    icon: "/images/socials/threads.svg",
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    icon: "/images/socials/instagram.svg",
-    url: "#",
-  },
+
+
   {
     id: "3",
     title: "Discord",

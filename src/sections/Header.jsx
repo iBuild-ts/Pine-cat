@@ -56,7 +56,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="features" />
                   <div className="dot" />
-                  <NavLink title="pricing" />
+                  <NavLink title="Buy Now" />
                 </li>
 
                 <li className="nav-logo">
@@ -71,7 +71,7 @@ const Header = () => {
                   >
                     <img
                       src="/images/xora.svg"
-                      width={160}
+                      width={90}
                       height={55}
                       alt="logo"
                     />
@@ -81,7 +81,7 @@ const Header = () => {
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
-                  <NavLink title="download" />
+                  <NavLink title="down" />
                 </li>
               </ul>
             </nav>

@@ -6,7 +6,7 @@ const Download = () => {
   return (
     <section>
       <Element
-        name="download"
+        name="down"
         className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
       >
         <div className="container">
@@ -15,15 +15,15 @@ const Download = () => {
               <div className="mb-10">
                 <img
                   src="/images/xora.svg"
-                  width={160}
+                  width={95}
                   height={55}
+                  border-radius={20}
                   alt="xora"
                 />
               </div>
 
               <p className="body-1 mb-10 max-w-md">
-                Try it now for free on iOS, Android, PC, Web - whatever your
-                flavor, we've got you covered.
+                Once upon a time, there was a streetwise cat wandering around a fruit stand. But this wasn’t just any fruit stand, and this wasn’t just any cat. This was the legendary PineCat a mythical creature with a pineapple crown and the wildest eyes you’ve ever seen.
               </p>
 
               <ul className="flex flex-wrap items-center gap-6">
